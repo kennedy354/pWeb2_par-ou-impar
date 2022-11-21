@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>jogo</title>
+  <title>Jogo</title>
+</head>
+
+<body>
+  <input type="number" id="escolha1" placeholder="Número do jogador 1"/>
+  <br>
+  <input type="number" id="escolha2" placeholder="Número do jogador 2"/>
+  <br><br>
+  Escolha "par" ou "impar" para o jogador 1<br>
+  O jogador 2 vai ficar com a outra opção<br><br>
+  
+  <div class="form-check col">
+    <label class="form-check-label" for="par">
+    <input class="form-check-input" type="radio" name="flexRadioDefault1" id="par" value="par">
+      Par
+    </label>
+  </div>
+  <div class="form-check col">
+    <label class="form-check-label" for="impar">
+    <input class="form-check-input" type="radio" name="flexRadioDefault1" id="impar" value="impar">
+      Ímpar
+    </label>
+  </div>
+  <br>
+
+  <button id="jogar" type="button">Jogar</button>
+  <br><br>
+  Resultado: <span id="venceu">...</span>
+
+  <script src="assets/js/app.js"></script>
+</body>
+
+</html>
